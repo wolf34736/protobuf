@@ -35,8 +35,8 @@
 #include <google/protobuf/stubs/common.h>
 #include <google/protobuf/stubs/strutil.h>
 
-#ifndef GOOGLE_PROTOBUF_STUBS_SUBSTITUTE_H_
-#define GOOGLE_PROTOBUF_STUBS_SUBSTITUTE_H_
+#ifndef GOOGLE_PROTOBUF_STUBS_SUBSTITUTE_H
+#define GOOGLE_PROTOBUF_STUBS_SUBSTITUTE_H
 
 namespace google {
 namespace protobuf {
@@ -167,4 +167,4 @@ LIBPROTOBUF_EXPORT void SubstituteAndAppend(
 }  // namespace protobuf
 }  // namespace google
 
-#endif // GOOGLE_PROTOBUF_STUBS_SUBSTITUTE_H_
+#endif // GOOGLE_PROTOBUF_STUBS_SUBSTITUTE_H

@@ -29,8 +29,8 @@
 
 // This file is an internal atomic implementation, use atomicops.h instead.
 
-#ifndef GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_SPARC_GCC_H_
-#define GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_SPARC_GCC_H_
+#ifndef GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_SPARC_GCC_H
+#define GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_SPARC_GCC_H
 
 #include <atomic.h>
 
@@ -184,5 +184,5 @@ inline Atomic64 Release_Load(volatile const Atomic64* ptr) {
 }  // namespace protobuf
 }  // namespace google
 
-#endif  // GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_SPARC_GCC_H_
+#endif  // GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_SPARC_GCC_H
 

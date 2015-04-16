@@ -32,8 +32,8 @@
 //
 // Contains basic types and utilities used by the rest of the library.
 
-#ifndef GOOGLE_PROTOBUF_COMMON_H__
-#define GOOGLE_PROTOBUF_COMMON_H__
+#ifndef GOOGLE_PROTOBUF_COMMON_H
+#define GOOGLE_PROTOBUF_COMMON_H
 
 #include <assert.h>
 #include <stdlib.h>
@@ -1235,4 +1235,4 @@ using namespace std;  // Don't do this at home, kids.
 }  // namespace protobuf
 }  // namespace google
 
-#endif  // GOOGLE_PROTOBUF_COMMON_H__
+#endif  // GOOGLE_PROTOBUF_COMMON_H

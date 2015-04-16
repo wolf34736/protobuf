@@ -37,8 +37,8 @@
 // This header is logically internal, but is made public because it is used
 // from protocol-compiler-generated code, which may reside in other components.
 
-#ifndef GOOGLE_PROTOBUF_WIRE_FORMAT_LITE_H__
-#define GOOGLE_PROTOBUF_WIRE_FORMAT_LITE_H__
+#ifndef GOOGLE_PROTOBUF_WIRE_FORMAT_LITE_H
+#define GOOGLE_PROTOBUF_WIRE_FORMAT_LITE_H
 
 #include <string>
 #include <google/protobuf/stubs/common.h>
@@ -689,4 +689,4 @@ inline bool WireFormatLite::ReadString(io::CodedInputStream* input,
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_WIRE_FORMAT_LITE_H__
+#endif  // GOOGLE_PROTOBUF_WIRE_FORMAT_LITE_H

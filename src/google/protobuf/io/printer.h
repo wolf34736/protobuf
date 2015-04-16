@@ -34,8 +34,8 @@
 //
 // Utility class for writing text to a ZeroCopyOutputStream.
 
-#ifndef GOOGLE_PROTOBUF_IO_PRINTER_H__
-#define GOOGLE_PROTOBUF_IO_PRINTER_H__
+#ifndef GOOGLE_PROTOBUF_IO_PRINTER_H
+#define GOOGLE_PROTOBUF_IO_PRINTER_H
 
 #include <string>
 #include <map>
@@ -138,4 +138,4 @@ class LIBPROTOBUF_EXPORT Printer {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_IO_PRINTER_H__
+#endif  // GOOGLE_PROTOBUF_IO_PRINTER_H

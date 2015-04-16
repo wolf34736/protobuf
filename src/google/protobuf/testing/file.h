@@ -31,8 +31,8 @@
 // Author: kenton@google.com (Kenton Varda)
 // emulates google3/file/base/file.h
 
-#ifndef GOOGLE_PROTOBUF_TESTING_FILE_H__
-#define GOOGLE_PROTOBUF_TESTING_FILE_H__
+#ifndef GOOGLE_PROTOBUF_TESTING_FILE_H
+#define GOOGLE_PROTOBUF_TESTING_FILE_H
 
 #include <google/protobuf/stubs/common.h>
 
@@ -97,4 +97,4 @@ class File {
 }  // namespace protobuf
 }  // namespace google
 
-#endif  // GOOGLE_PROTOBUF_TESTING_FILE_H__
+#endif  // GOOGLE_PROTOBUF_TESTING_FILE_H

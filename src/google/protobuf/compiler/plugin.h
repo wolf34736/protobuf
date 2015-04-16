@@ -52,8 +52,8 @@
 //   On Windows, make sure to include the .exe suffix:
 //     protoc --plugin=protoc-gen-NAME=path/to/mybinary.exe --NAME_out=OUT_DIR
 
-#ifndef GOOGLE_PROTOBUF_COMPILER_PLUGIN_H__
-#define GOOGLE_PROTOBUF_COMPILER_PLUGIN_H__
+#ifndef GOOGLE_PROTOBUF_COMPILER_PLUGIN_H
+#define GOOGLE_PROTOBUF_COMPILER_PLUGIN_H
 
 #include <google/protobuf/stubs/common.h>
 namespace google {
@@ -69,4 +69,4 @@ LIBPROTOC_EXPORT int PluginMain(int argc, char* argv[], const CodeGenerator* gen
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_COMPILER_PLUGIN_H__
+#endif  // GOOGLE_PROTOBUF_COMPILER_PLUGIN_H

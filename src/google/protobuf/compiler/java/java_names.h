@@ -35,8 +35,8 @@
 // Provides a mechanism for mapping a descriptor to the
 // fully-qualified name of the corresponding Java class.
 
-#ifndef GOOGLE_PROTOBUF_COMPILER_JAVA_NAMES_H__
-#define GOOGLE_PROTOBUF_COMPILER_JAVA_NAMES_H__
+#ifndef GOOGLE_PROTOBUF_COMPILER_JAVA_NAMES_H
+#define GOOGLE_PROTOBUF_COMPILER_JAVA_NAMES_H
 
 #include <string>
 
@@ -84,4 +84,4 @@ string ClassName(const ServiceDescriptor* descriptor);
 }  // namespace protobuf
 }  // namespace google
 
-#endif  // GOOGLE_PROTOBUF_COMPILER_JAVA_NAMES_H__
+#endif  // GOOGLE_PROTOBUF_COMPILER_JAVA_NAMES_H

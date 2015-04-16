@@ -28,8 +28,8 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#ifndef GOOGLE_PROTOBUF_MAP_ENTRY_LITE_H__
-#define GOOGLE_PROTOBUF_MAP_ENTRY_LITE_H__
+#ifndef GOOGLE_PROTOBUF_MAP_ENTRY_LITE_H
+#define GOOGLE_PROTOBUF_MAP_ENTRY_LITE_H
 
 #include <google/protobuf/map_type_handler.h>
 #include <google/protobuf/wire_format_lite_inl.h>
@@ -406,4 +406,4 @@ class LIBPROTOBUF_EXPORT MapEntryLite : public MessageLite {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_MAP_ENTRY_LITE_H__
+#endif  // GOOGLE_PROTOBUF_MAP_ENTRY_LITE_H

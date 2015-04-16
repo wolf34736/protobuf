@@ -31,8 +31,8 @@
 // Author: kenton@google.com (Kenton Varda)
 // emulates google3/testing/base/public/googletest.h
 
-#ifndef GOOGLE_PROTOBUF_GOOGLETEST_H__
-#define GOOGLE_PROTOBUF_GOOGLETEST_H__
+#ifndef GOOGLE_PROTOBUF_GOOGLETEST_H
+#define GOOGLE_PROTOBUF_GOOGLETEST_H
 
 #include <map>
 #include <vector>
@@ -99,4 +99,4 @@ class ScopedMemoryLog {
 }  // namespace protobuf
 }  // namespace google
 
-#endif  // GOOGLE_PROTOBUF_GOOGLETEST_H__
+#endif  // GOOGLE_PROTOBUF_GOOGLETEST_H

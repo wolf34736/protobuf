@@ -30,8 +30,8 @@
 
 // from google3/strings/strutil.h
 
-#ifndef GOOGLE_PROTOBUF_STUBS_STRUTIL_H__
-#define GOOGLE_PROTOBUF_STUBS_STRUTIL_H__
+#ifndef GOOGLE_PROTOBUF_STUBS_STRUTIL_H
+#define GOOGLE_PROTOBUF_STUBS_STRUTIL_H
 
 #include <stdlib.h>
 #include <vector>
@@ -702,4 +702,4 @@ LIBPROTOBUF_EXPORT int GlobalReplaceSubstring(const string& substring,
 }  // namespace protobuf
 }  // namespace google
 
-#endif  // GOOGLE_PROTOBUF_STUBS_STRUTIL_H__
+#endif  // GOOGLE_PROTOBUF_STUBS_STRUTIL_H

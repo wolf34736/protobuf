@@ -28,8 +28,8 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#ifndef GOOGLE_PROTOBUF_GENERATED_ENUM_UTIL_H__
-#define GOOGLE_PROTOBUF_GENERATED_ENUM_UTIL_H__
+#ifndef GOOGLE_PROTOBUF_GENERATED_ENUM_UTIL_H
+#define GOOGLE_PROTOBUF_GENERATED_ENUM_UTIL_H
 
 #include <google/protobuf/stubs/template_util.h>
 
@@ -43,4 +43,4 @@ template <typename T> struct is_proto_enum : ::google::protobuf::internal::false
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_GENERATED_ENUM_UTIL_H__
+#endif  // GOOGLE_PROTOBUF_GENERATED_ENUM_UTIL_H

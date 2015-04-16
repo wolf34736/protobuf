@@ -41,8 +41,8 @@
 // abstractions they prefer to use, but these should cover the most common
 // cases.
 
-#ifndef GOOGLE_PROTOBUF_IO_ZERO_COPY_STREAM_IMPL_LITE_H__
-#define GOOGLE_PROTOBUF_IO_ZERO_COPY_STREAM_IMPL_LITE_H__
+#ifndef GOOGLE_PROTOBUF_IO_ZERO_COPY_STREAM_IMPL_LITE_H
+#define GOOGLE_PROTOBUF_IO_ZERO_COPY_STREAM_IMPL_LITE_H
 
 #include <string>
 #include <iosfwd>
@@ -378,4 +378,4 @@ inline std::pair<char*, bool> as_string_data(string* s) {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_IO_ZERO_COPY_STREAM_IMPL_LITE_H__
+#endif  // GOOGLE_PROTOBUF_IO_ZERO_COPY_STREAM_IMPL_LITE_H

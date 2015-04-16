@@ -42,8 +42,8 @@
 //     Analysis: memcmp, fastmemcmp_inlined, fastmemcmp
 //     2012-01-30
 
-#ifndef GOOGLE_PROTOBUF_STUBS_FASTMEM_H_
-#define GOOGLE_PROTOBUF_STUBS_FASTMEM_H_
+#ifndef GOOGLE_PROTOBUF_STUBS_FASTMEM_H
+#define GOOGLE_PROTOBUF_STUBS_FASTMEM_H
 
 #include <stddef.h>
 #include <stdio.h>
@@ -149,4 +149,4 @@ inline void memcpy_inlined(char *dst, const char *src, size_t size) {
 }  // namespace protobuf
 }  // namespace google
 
-#endif  // GOOGLE_PROTOBUF_STUBS_FASTMEM_H_
+#endif  // GOOGLE_PROTOBUF_STUBS_FASTMEM_H

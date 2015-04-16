@@ -30,8 +30,8 @@
 
 // This file is an internal atomic implementation, use atomicops.h instead.
 
-#ifndef GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_PNACL_H_
-#define GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_PNACL_H_
+#ifndef GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_PNACL_H
+#define GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_PNACL_H
 
 namespace google {
 namespace protobuf {
@@ -70,4 +70,4 @@ inline Atomic32 Acquire_Load(volatile const Atomic32* ptr) {
 }  // namespace protobuf
 }  // namespace google
 
-#endif  // GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_PNACL_H_
+#endif  // GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_PNACL_H

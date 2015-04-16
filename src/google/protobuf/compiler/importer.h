@@ -34,8 +34,8 @@
 //
 // This file is the public interface to the .proto file parser.
 
-#ifndef GOOGLE_PROTOBUF_COMPILER_IMPORTER_H__
-#define GOOGLE_PROTOBUF_COMPILER_IMPORTER_H__
+#ifndef GOOGLE_PROTOBUF_COMPILER_IMPORTER_H
+#define GOOGLE_PROTOBUF_COMPILER_IMPORTER_H
 
 #include <string>
 #include <vector>
@@ -314,4 +314,4 @@ class LIBPROTOBUF_EXPORT DiskSourceTree : public SourceTree {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_COMPILER_IMPORTER_H__
+#endif  // GOOGLE_PROTOBUF_COMPILER_IMPORTER_H

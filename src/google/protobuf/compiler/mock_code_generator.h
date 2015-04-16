@@ -30,8 +30,8 @@
 
 // Author: kenton@google.com (Kenton Varda)
 
-#ifndef GOOGLE_PROTOBUF_COMPILER_MOCK_CODE_GENERATOR_H__
-#define GOOGLE_PROTOBUF_COMPILER_MOCK_CODE_GENERATOR_H__
+#ifndef GOOGLE_PROTOBUF_COMPILER_MOCK_CODE_GENERATOR_H
+#define GOOGLE_PROTOBUF_COMPILER_MOCK_CODE_GENERATOR_H
 
 #include <string>
 #include <google/protobuf/compiler/code_generator.h>
@@ -114,4 +114,4 @@ class MockCodeGenerator : public CodeGenerator {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_COMPILER_MOCK_CODE_GENERATOR_H__
+#endif  // GOOGLE_PROTOBUF_COMPILER_MOCK_CODE_GENERATOR_H

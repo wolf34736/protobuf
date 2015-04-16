@@ -30,8 +30,8 @@
 
 // from google3/util/gtl/shared_ptr.h
 
-#ifndef GOOGLE_PROTOBUF_STUBS_SHARED_PTR_H__
-#define GOOGLE_PROTOBUF_STUBS_SHARED_PTR_H__
+#ifndef GOOGLE_PROTOBUF_STUBS_SHARED_PTR_H
+#define GOOGLE_PROTOBUF_STUBS_SHARED_PTR_H
 
 #include <google/protobuf/stubs/atomicops.h>
 
@@ -467,4 +467,4 @@ void shared_ptr<T>::MaybeSetupWeakThis(enable_shared_from_this<T>* ptr) {
 }  // namespace protobuf
 }  // namespace google
 
-#endif  // GOOGLE_PROTOBUF_STUBS_SHARED_PTR_H__
+#endif  // GOOGLE_PROTOBUF_STUBS_SHARED_PTR_H

@@ -32,8 +32,8 @@
 //
 // Deals with the fact that hash_map is not defined everywhere.
 
-#ifndef GOOGLE_PROTOBUF_STUBS_HASH_H__
-#define GOOGLE_PROTOBUF_STUBS_HASH_H__
+#ifndef GOOGLE_PROTOBUF_STUBS_HASH_H
+#define GOOGLE_PROTOBUF_STUBS_HASH_H
 
 #include <string.h>
 #include <google/protobuf/stubs/common.h>
@@ -239,4 +239,4 @@ struct streq {
 }  // namespace protobuf
 }  // namespace google
 
-#endif  // GOOGLE_PROTOBUF_STUBS_HASH_H__
+#endif  // GOOGLE_PROTOBUF_STUBS_HASH_H

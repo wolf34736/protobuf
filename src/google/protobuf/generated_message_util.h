@@ -35,8 +35,8 @@
 // This file contains miscellaneous helper code used by generated code --
 // including lite types -- but which should not be used directly by users.
 
-#ifndef GOOGLE_PROTOBUF_GENERATED_MESSAGE_UTIL_H__
-#define GOOGLE_PROTOBUF_GENERATED_MESSAGE_UTIL_H__
+#ifndef GOOGLE_PROTOBUF_GENERATED_MESSAGE_UTIL_H
+#define GOOGLE_PROTOBUF_GENERATED_MESSAGE_UTIL_H
 
 #include <assert.h>
 #include <string>
@@ -110,4 +110,4 @@ template <class Type> bool AllAreInitialized(const Type& t) {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_GENERATED_MESSAGE_UTIL_H__
+#endif  // GOOGLE_PROTOBUF_GENERATED_MESSAGE_UTIL_H

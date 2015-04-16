@@ -28,8 +28,8 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#ifndef GOOGLE_PROTOBUF_MAP_H__
-#define GOOGLE_PROTOBUF_MAP_H__
+#ifndef GOOGLE_PROTOBUF_MAP_H
+#define GOOGLE_PROTOBUF_MAP_H
 
 #include <iterator>
 #include <google/protobuf/stubs/hash.h>
@@ -433,4 +433,4 @@ class Map {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_MAP_H__
+#endif  // GOOGLE_PROTOBUF_MAP_H

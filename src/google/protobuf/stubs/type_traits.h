@@ -56,8 +56,8 @@
 //   is_convertible
 // We can add more type traits as required.
 
-#ifndef GOOGLE_PROTOBUF_TYPE_TRAITS_H_
-#define GOOGLE_PROTOBUF_TYPE_TRAITS_H_
+#ifndef GOOGLE_PROTOBUF_TYPE_TRAITS_H
+#define GOOGLE_PROTOBUF_TYPE_TRAITS_H
 
 #include <utility>                  // For pair
 
@@ -357,4 +357,4 @@ struct is_convertible
 }  // namespace protobuf
 }  // namespace google
 
-#endif  // GOOGLE_PROTOBUF_TYPE_TRAITS_H_
+#endif  // GOOGLE_PROTOBUF_TYPE_TRAITS_H

@@ -36,8 +36,8 @@
 // This header is logically internal, but is made public because it is used
 // from protocol-compiler-generated code, which may reside in other components.
 
-#ifndef GOOGLE_PROTOBUF_WIRE_FORMAT_H__
-#define GOOGLE_PROTOBUF_WIRE_FORMAT_H__
+#ifndef GOOGLE_PROTOBUF_WIRE_FORMAT_H
+#define GOOGLE_PROTOBUF_WIRE_FORMAT_H
 
 #include <string>
 #include <google/protobuf/stubs/common.h>
@@ -341,4 +341,4 @@ inline void WireFormat::VerifyUTF8StringNamedField(
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_WIRE_FORMAT_H__
+#endif  // GOOGLE_PROTOBUF_WIRE_FORMAT_H

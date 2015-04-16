@@ -31,8 +31,8 @@
 // Author: anuraag@google.com (Anuraag Agrawal)
 // Author: tibell@google.com (Johan Tibell)
 
-#ifndef GOOGLE_PROTOBUF_PYTHON_CPP_MESSAGE_H__
-#define GOOGLE_PROTOBUF_PYTHON_CPP_MESSAGE_H__
+#ifndef GOOGLE_PROTOBUF_PYTHON_CPP_MESSAGE_H
+#define GOOGLE_PROTOBUF_PYTHON_CPP_MESSAGE_H
 
 #include <Python.h>
 
@@ -307,4 +307,4 @@ extern PyObject* PickleError_class;
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_PYTHON_CPP_MESSAGE_H__
+#endif  // GOOGLE_PROTOBUF_PYTHON_CPP_MESSAGE_H

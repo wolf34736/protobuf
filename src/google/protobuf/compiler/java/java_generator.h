@@ -34,8 +34,8 @@
 //
 // Generates Java code for a given .proto file.
 
-#ifndef GOOGLE_PROTOBUF_COMPILER_JAVA_GENERATOR_H__
-#define GOOGLE_PROTOBUF_COMPILER_JAVA_GENERATOR_H__
+#ifndef GOOGLE_PROTOBUF_COMPILER_JAVA_GENERATOR_H
+#define GOOGLE_PROTOBUF_COMPILER_JAVA_GENERATOR_H
 
 #include <string>
 #include <google/protobuf/compiler/code_generator.h>
@@ -69,4 +69,4 @@ class LIBPROTOC_EXPORT JavaGenerator : public CodeGenerator {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_COMPILER_JAVA_GENERATOR_H__
+#endif  // GOOGLE_PROTOBUF_COMPILER_JAVA_GENERATOR_H

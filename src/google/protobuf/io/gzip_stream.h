@@ -40,8 +40,8 @@
 // GzipOutputStream is an ZeroCopyOutputStream that compresses data to
 // an underlying ZeroCopyOutputStream.
 
-#ifndef GOOGLE_PROTOBUF_IO_GZIP_STREAM_H__
-#define GOOGLE_PROTOBUF_IO_GZIP_STREAM_H__
+#ifndef GOOGLE_PROTOBUF_IO_GZIP_STREAM_H
+#define GOOGLE_PROTOBUF_IO_GZIP_STREAM_H
 
 #include <zlib.h>
 
@@ -207,4 +207,4 @@ class LIBPROTOBUF_EXPORT GzipOutputStream : public ZeroCopyOutputStream {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_IO_GZIP_STREAM_H__
+#endif  // GOOGLE_PROTOBUF_IO_GZIP_STREAM_H

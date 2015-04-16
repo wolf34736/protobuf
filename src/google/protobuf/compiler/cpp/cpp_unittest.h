@@ -39,8 +39,8 @@
 //
 // See ClassName in helpers.h for more details.
 
-#ifndef GOOGLE_PROTOBUF_COMPILER_CPP_UNITTEST_H__
-#define GOOGLE_PROTOBUF_COMPILER_CPP_UNITTEST_H__
+#ifndef GOOGLE_PROTOBUF_COMPILER_CPP_UNITTEST_H
+#define GOOGLE_PROTOBUF_COMPILER_CPP_UNITTEST_H
 
 namespace google {
 namespace protobuf {
@@ -48,4 +48,4 @@ namespace protobuf_unittest {}
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_COMPILER_CPP_UNITTEST_H__
+#endif  // GOOGLE_PROTOBUF_COMPILER_CPP_UNITTEST_H

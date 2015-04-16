@@ -30,8 +30,8 @@
 
 // This header file is protobuf internal. Users should not include this
 // file directly.
-#ifndef GOOGLE_PROTOBUF_REPEATED_FIELD_REFLECTION_H__
-#define GOOGLE_PROTOBUF_REPEATED_FIELD_REFLECTION_H__
+#ifndef GOOGLE_PROTOBUF_REPEATED_FIELD_REFLECTION_H
+#define GOOGLE_PROTOBUF_REPEATED_FIELD_REFLECTION_H
 
 #include <memory>
 #ifndef _SHARED_PTR_H
@@ -334,4 +334,4 @@ struct RefTypeTraits<
 }  // namespace internal
 }  // namespace protobuf
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_REPEATED_FIELD_REFLECTION_H__
+#endif  // GOOGLE_PROTOBUF_REPEATED_FIELD_REFLECTION_H

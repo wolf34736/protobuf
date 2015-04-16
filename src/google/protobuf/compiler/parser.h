@@ -34,8 +34,8 @@
 //
 // Implements parsing of .proto files to FileDescriptorProtos.
 
-#ifndef GOOGLE_PROTOBUF_COMPILER_PARSER_H__
-#define GOOGLE_PROTOBUF_COMPILER_PARSER_H__
+#ifndef GOOGLE_PROTOBUF_COMPILER_PARSER_H
+#define GOOGLE_PROTOBUF_COMPILER_PARSER_H
 
 #include <map>
 #include <string>
@@ -552,4 +552,4 @@ class LIBPROTOBUF_EXPORT SourceLocationTable {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_COMPILER_PARSER_H__
+#endif  // GOOGLE_PROTOBUF_COMPILER_PARSER_H

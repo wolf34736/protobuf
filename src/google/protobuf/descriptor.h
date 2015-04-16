@@ -51,8 +51,8 @@
 // For an example of how you might use descriptors, see the code example
 // at the top of message.h.
 
-#ifndef GOOGLE_PROTOBUF_DESCRIPTOR_H__
-#define GOOGLE_PROTOBUF_DESCRIPTOR_H__
+#ifndef GOOGLE_PROTOBUF_DESCRIPTOR_H
+#define GOOGLE_PROTOBUF_DESCRIPTOR_H
 
 #include <set>
 #include <string>
@@ -1781,4 +1781,4 @@ inline const FieldDescriptor* OneofDescriptor::field(int index) const {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_DESCRIPTOR_H__
+#endif  // GOOGLE_PROTOBUF_DESCRIPTOR_H

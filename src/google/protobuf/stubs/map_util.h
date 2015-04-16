@@ -31,8 +31,8 @@
 // from google3/util/gtl/map_util.h
 // Author: Anton Carver
 
-#ifndef GOOGLE_PROTOBUF_STUBS_MAP_UTIL_H__
-#define GOOGLE_PROTOBUF_STUBS_MAP_UTIL_H__
+#ifndef GOOGLE_PROTOBUF_STUBS_MAP_UTIL_H
+#define GOOGLE_PROTOBUF_STUBS_MAP_UTIL_H
 
 #include <stddef.h>
 #include <iterator>
@@ -766,4 +766,4 @@ void AppendValuesFromMap(const MapContainer& map_container,
 }  // namespace protobuf
 }  // namespace google
 
-#endif  // GOOGLE_PROTOBUF_STUBS_MAP_UTIL_H__
+#endif  // GOOGLE_PROTOBUF_STUBS_MAP_UTIL_H

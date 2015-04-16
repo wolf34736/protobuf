@@ -31,8 +31,8 @@
 // Author: anuraag@google.com (Anuraag Agrawal)
 // Author: tibell@google.com (Johan Tibell)
 
-#ifndef GOOGLE_PROTOBUF_PYTHON_CPP_EXTENSION_DICT_H__
-#define GOOGLE_PROTOBUF_PYTHON_CPP_EXTENSION_DICT_H__
+#ifndef GOOGLE_PROTOBUF_PYTHON_CPP_EXTENSION_DICT_H
+#define GOOGLE_PROTOBUF_PYTHON_CPP_EXTENSION_DICT_H
 
 #include <Python.h>
 
@@ -129,4 +129,4 @@ PyObject* _FindExtensionByName(ExtensionDict* self, PyObject* name);
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_PYTHON_CPP_EXTENSION_DICT_H__
+#endif  // GOOGLE_PROTOBUF_PYTHON_CPP_EXTENSION_DICT_H

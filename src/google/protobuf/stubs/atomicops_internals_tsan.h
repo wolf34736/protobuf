@@ -32,8 +32,8 @@
 // ThreadSanitizer (http://clang.llvm.org/docs/ThreadSanitizer.html).
 // Use atomicops.h instead.
 
-#ifndef GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_TSAN_H_
-#define GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_TSAN_H_
+#ifndef GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_TSAN_H
+#define GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_TSAN_H
 
 #define ATOMICOPS_COMPILER_BARRIER() __asm__ __volatile__("" : : : "memory")
 
@@ -216,4 +216,4 @@ inline void MemoryBarrier() {
 
 #undef ATOMICOPS_COMPILER_BARRIER
 
-#endif  // GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_TSAN_H_
+#endif  // GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_TSAN_H

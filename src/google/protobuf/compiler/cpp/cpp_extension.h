@@ -32,8 +32,8 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#ifndef GOOGLE_PROTOBUF_COMPILER_CPP_EXTENSION_H__
-#define GOOGLE_PROTOBUF_COMPILER_CPP_EXTENSION_H__
+#ifndef GOOGLE_PROTOBUF_COMPILER_CPP_EXTENSION_H
+#define GOOGLE_PROTOBUF_COMPILER_CPP_EXTENSION_H
 
 #include <string>
 #include <google/protobuf/stubs/common.h>
@@ -83,4 +83,4 @@ class ExtensionGenerator {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_COMPILER_CPP_MESSAGE_H__
+#endif  // GOOGLE_PROTOBUF_COMPILER_CPP_MESSAGE_H

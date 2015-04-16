@@ -50,8 +50,8 @@
 // This header and the implementations for each platform (located in
 // atomicops_internals_*) must be kept in sync with the upstream code (V8).
 
-#ifndef GOOGLE_PROTOBUF_ATOMICOPS_H_
-#define GOOGLE_PROTOBUF_ATOMICOPS_H_
+#ifndef GOOGLE_PROTOBUF_ATOMICOPS_H
+#define GOOGLE_PROTOBUF_ATOMICOPS_H
 
 // Don't include this file for people not concerned about thread safety.
 #ifndef GOOGLE_PROTOBUF_NO_THREAD_SAFETY
@@ -238,4 +238,4 @@ GOOGLE_PROTOBUF_ATOMICOPS_ERROR
 
 #endif  // GOOGLE_PROTOBUF_NO_THREAD_SAFETY
 
-#endif  // GOOGLE_PROTOBUF_ATOMICOPS_H_
+#endif  // GOOGLE_PROTOBUF_ATOMICOPS_H

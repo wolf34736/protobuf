@@ -28,8 +28,8 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#ifndef GOOGLE_PROTOBUF_MAP_ENTRY_H__
-#define GOOGLE_PROTOBUF_MAP_ENTRY_H__
+#ifndef GOOGLE_PROTOBUF_MAP_ENTRY_H
+#define GOOGLE_PROTOBUF_MAP_ENTRY_H
 
 #include <google/protobuf/generated_message_reflection.h>
 #include <google/protobuf/map_entry_lite.h>
@@ -292,4 +292,4 @@ int MapEntry<Key, Value, kKeyFieldType, kValueFieldType,
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_MAP_ENTRY_H__
+#endif  // GOOGLE_PROTOBUF_MAP_ENTRY_H

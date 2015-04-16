@@ -35,8 +35,8 @@
 // Defines an implementation of Message which can emulate types which are not
 // known at compile-time.
 
-#ifndef GOOGLE_PROTOBUF_DYNAMIC_MESSAGE_H__
-#define GOOGLE_PROTOBUF_DYNAMIC_MESSAGE_H__
+#ifndef GOOGLE_PROTOBUF_DYNAMIC_MESSAGE_H
+#define GOOGLE_PROTOBUF_DYNAMIC_MESSAGE_H
 
 #include <memory>
 #ifndef _SHARED_PTR_H
@@ -148,4 +148,4 @@ class LIBPROTOBUF_EXPORT DynamicMessageFactory : public MessageFactory {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_DYNAMIC_MESSAGE_H__
+#endif  // GOOGLE_PROTOBUF_DYNAMIC_MESSAGE_H

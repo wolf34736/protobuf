@@ -28,8 +28,8 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#ifndef __GOOGLE_PROTOBUF_RUBY_PROTOBUF_H__
-#define __GOOGLE_PROTOBUF_RUBY_PROTOBUF_H__
+#ifndef GOOGLE_PROTOBUF_RUBY_PROTOBUF_H
+#define GOOGLE_PROTOBUF_RUBY_PROTOBUF_H
 
 #include <ruby/ruby.h>
 #include <ruby/vm.h>
@@ -530,4 +530,4 @@ void check_upb_status(const upb_status* status, const char* msg);
     check_upb_status(&status, msg);                                           \
 } while (0)
 
-#endif  // __GOOGLE_PROTOBUF_RUBY_PROTOBUF_H__
+#endif  // GOOGLE_PROTOBUF_RUBY_PROTOBUF_H

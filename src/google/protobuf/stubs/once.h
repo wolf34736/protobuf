@@ -75,8 +75,8 @@
 // whatsoever to statically-initialize its synchronization primitives, so our
 // only choice is to assume that dynamic initialization is single-threaded.
 
-#ifndef GOOGLE_PROTOBUF_STUBS_ONCE_H__
-#define GOOGLE_PROTOBUF_STUBS_ONCE_H__
+#ifndef GOOGLE_PROTOBUF_STUBS_ONCE_H
+#define GOOGLE_PROTOBUF_STUBS_ONCE_H
 
 #include <google/protobuf/stubs/atomicops.h>
 #include <google/protobuf/stubs/common.h>
@@ -163,4 +163,4 @@ class GoogleOnceDynamic {
 }  // namespace protobuf
 }  // namespace google
 
-#endif  // GOOGLE_PROTOBUF_STUBS_ONCE_H__
+#endif  // GOOGLE_PROTOBUF_STUBS_ONCE_H

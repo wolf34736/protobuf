@@ -33,8 +33,8 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#ifndef GOOGLE_PROTOBUF_WIRE_FORMAT_LITE_INL_H__
-#define GOOGLE_PROTOBUF_WIRE_FORMAT_LITE_INL_H__
+#ifndef GOOGLE_PROTOBUF_WIRE_FORMAT_LITE_INL_H
+#define GOOGLE_PROTOBUF_WIRE_FORMAT_LITE_INL_H
 
 #ifdef _MSC_VER
 // This is required for min/max on VS2013 only.
@@ -853,4 +853,4 @@ inline int WireFormatLite::LengthDelimitedSize(int length) {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_WIRE_FORMAT_LITE_INL_H__
+#endif  // GOOGLE_PROTOBUF_WIRE_FORMAT_LITE_INL_H

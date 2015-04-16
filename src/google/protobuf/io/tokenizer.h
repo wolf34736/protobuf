@@ -34,8 +34,8 @@
 //
 // Class for parsing tokenized text from a ZeroCopyInputStream.
 
-#ifndef GOOGLE_PROTOBUF_IO_TOKENIZER_H__
-#define GOOGLE_PROTOBUF_IO_TOKENIZER_H__
+#ifndef GOOGLE_PROTOBUF_IO_TOKENIZER_H
+#define GOOGLE_PROTOBUF_IO_TOKENIZER_H
 
 #include <string>
 #include <vector>
@@ -399,4 +399,4 @@ inline void Tokenizer::ParseString(const string& text, string* output) {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_IO_TOKENIZER_H__
+#endif  // GOOGLE_PROTOBUF_IO_TOKENIZER_H

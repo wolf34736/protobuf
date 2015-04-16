@@ -107,8 +107,8 @@
 //     delete foo;
 //   }
 
-#ifndef GOOGLE_PROTOBUF_MESSAGE_H__
-#define GOOGLE_PROTOBUF_MESSAGE_H__
+#ifndef GOOGLE_PROTOBUF_MESSAGE_H
+#define GOOGLE_PROTOBUF_MESSAGE_H
 
 #include <iosfwd>
 #include <string>
@@ -1055,4 +1055,4 @@ inline RepeatedPtrField<PB>* Reflection::MutableRepeatedPtrField(
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_MESSAGE_H__
+#endif  // GOOGLE_PROTOBUF_MESSAGE_H

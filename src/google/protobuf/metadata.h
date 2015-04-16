@@ -35,8 +35,8 @@
 // Note that this is distinct from google::protobuf::Metadata, which encapsulates
 // Descriptor and Reflection pointers.
 
-#ifndef GOOGLE_PROTOBUF_METADATA_H__
-#define GOOGLE_PROTOBUF_METADATA_H__
+#ifndef GOOGLE_PROTOBUF_METADATA_H
+#define GOOGLE_PROTOBUF_METADATA_H
 
 #include <google/protobuf/stubs/common.h>
 #include <google/protobuf/arena.h>
@@ -161,4 +161,4 @@ typedef InternalMetadataWithArena InternalMetadata;
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_METADATA_H__
+#endif  // GOOGLE_PROTOBUF_METADATA_H

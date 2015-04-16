@@ -30,8 +30,8 @@
 
 // This file is an internal atomic implementation, use atomicops.h instead.
 
-#ifndef GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_MIPS_GCC_H_
-#define GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_MIPS_GCC_H_
+#ifndef GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_MIPS_GCC_H
+#define GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_MIPS_GCC_H
 
 #define ATOMICOPS_COMPILER_BARRIER() __asm__ __volatile__("" : : : "memory")
 
@@ -310,4 +310,4 @@ inline Atomic64 Release_Load(volatile const Atomic64* ptr) {
 
 #undef ATOMICOPS_COMPILER_BARRIER
 
-#endif  // GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_MIPS_GCC_H_
+#endif  // GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_MIPS_GCC_H

@@ -32,8 +32,8 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#ifndef GOOGLE_PROTOBUF_COMPILER_CPP_HELPERS_H__
-#define GOOGLE_PROTOBUF_COMPILER_CPP_HELPERS_H__
+#ifndef GOOGLE_PROTOBUF_COMPILER_CPP_HELPERS_H
+#define GOOGLE_PROTOBUF_COMPILER_CPP_HELPERS_H
 
 #include <map>
 #include <string>
@@ -247,4 +247,4 @@ inline bool SupportsArenas(const FieldDescriptor* field) {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_COMPILER_CPP_HELPERS_H__
+#endif  // GOOGLE_PROTOBUF_COMPILER_CPP_HELPERS_H

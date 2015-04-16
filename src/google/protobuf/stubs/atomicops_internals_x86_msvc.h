@@ -30,8 +30,8 @@
 
 // This file is an internal atomic implementation, use atomicops.h instead.
 
-#ifndef GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_X86_MSVC_H_
-#define GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_X86_MSVC_H_
+#ifndef GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_X86_MSVC_H
+#define GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_X86_MSVC_H
 
 namespace google {
 namespace protobuf {
@@ -147,4 +147,4 @@ inline Atomic64 Release_CompareAndSwap(volatile Atomic64* ptr,
 }  // namespace protobuf
 }  // namespace google
 
-#endif  // GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_X86_MSVC_H_
+#endif  // GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_X86_MSVC_H

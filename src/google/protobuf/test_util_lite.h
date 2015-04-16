@@ -32,8 +32,8 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#ifndef GOOGLE_PROTOBUF_TEST_UTIL_LITE_H__
-#define GOOGLE_PROTOBUF_TEST_UTIL_LITE_H__
+#ifndef GOOGLE_PROTOBUF_TEST_UTIL_LITE_H
+#define GOOGLE_PROTOBUF_TEST_UTIL_LITE_H
 
 #include <google/protobuf/unittest_lite.pb.h>
 
@@ -98,4 +98,4 @@ class TestUtilLite {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_TEST_UTIL_LITE_H__
+#endif  // GOOGLE_PROTOBUF_TEST_UTIL_LITE_H

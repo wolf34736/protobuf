@@ -28,8 +28,8 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#ifndef GOOGLE_PROTOBUF_MAP_FIELD_LITE_H__
-#define GOOGLE_PROTOBUF_MAP_FIELD_LITE_H__
+#ifndef GOOGLE_PROTOBUF_MAP_FIELD_LITE_H
+#define GOOGLE_PROTOBUF_MAP_FIELD_LITE_H
 
 #include <google/protobuf/map.h>
 #include <google/protobuf/map_entry_lite.h>
@@ -275,4 +275,4 @@ bool AllAreInitialized(const Map<Key, T>& t) {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_MAP_FIELD_LITE_H__
+#endif  // GOOGLE_PROTOBUF_MAP_FIELD_LITE_H

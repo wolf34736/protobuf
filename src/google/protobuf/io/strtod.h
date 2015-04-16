@@ -32,8 +32,8 @@
 // point default values in .proto files, where the decimal separator
 // is always a dot.
 
-#ifndef GOOGLE_PROTOBUF_IO_STRTOD_H__
-#define GOOGLE_PROTOBUF_IO_STRTOD_H__
+#ifndef GOOGLE_PROTOBUF_IO_STRTOD_H
+#define GOOGLE_PROTOBUF_IO_STRTOD_H
 
 namespace google {
 namespace protobuf {
@@ -47,4 +47,4 @@ double NoLocaleStrtod(const char* str, char** endptr);
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_IO_STRTOD_H__
+#endif  // GOOGLE_PROTOBUF_IO_STRTOD_H

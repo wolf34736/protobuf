@@ -32,8 +32,8 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#ifndef GOOGLE_PROTOBUF_COMPILER_JAVANANO_HELPERS_H__
-#define GOOGLE_PROTOBUF_COMPILER_JAVANANO_HELPERS_H__
+#ifndef GOOGLE_PROTOBUF_COMPILER_JAVANANO_HELPERS_H
+#define GOOGLE_PROTOBUF_COMPILER_JAVANANO_HELPERS_H
 
 #include <string>
 #include <google/protobuf/compiler/javanano/javanano_params.h>
@@ -196,4 +196,4 @@ bool HasMapField(const Descriptor* descriptor);
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_COMPILER_JAVANANO_HELPERS_H__
+#endif  // GOOGLE_PROTOBUF_COMPILER_JAVANANO_HELPERS_H

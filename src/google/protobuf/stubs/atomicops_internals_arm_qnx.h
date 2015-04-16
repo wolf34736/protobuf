@@ -30,8 +30,8 @@
 
 // This file is an internal atomic implementation, use atomicops.h instead.
 
-#ifndef GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_ARM_QNX_H_
-#define GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_ARM_QNX_H_
+#ifndef GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_ARM_QNX_H
+#define GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_ARM_QNX_H
 
 // For _smp_cmpxchg()
 #include <pthread.h>
@@ -143,4 +143,4 @@ inline Atomic32 Release_Load(volatile const Atomic32* ptr) {
 }  // namespace protobuf
 }  // namespace google
 
-#endif  // GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_ARM_QNX_H_
+#endif  // GOOGLE_PROTOBUF_ATOMICOPS_INTERNALS_ARM_QNX_H

@@ -32,8 +32,8 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#ifndef GOOGLE_PROTOBUF_COMPILER_CPP_SERVICE_H__
-#define GOOGLE_PROTOBUF_COMPILER_CPP_SERVICE_H__
+#ifndef GOOGLE_PROTOBUF_COMPILER_CPP_SERVICE_H
+#define GOOGLE_PROTOBUF_COMPILER_CPP_SERVICE_H
 
 #include <map>
 #include <string>
@@ -115,4 +115,4 @@ class ServiceGenerator {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_COMPILER_CPP_SERVICE_H__
+#endif  // GOOGLE_PROTOBUF_COMPILER_CPP_SERVICE_H

@@ -32,8 +32,8 @@
 //
 // Generators that generate shared code between immutable API and mutable API.
 
-#ifndef GOOGLE_PROTOBUF_COMPILER_JAVA_SHARED_CODE_GENERATOR_H__
-#define GOOGLE_PROTOBUF_COMPILER_JAVA_SHARED_CODE_GENERATOR_H__
+#ifndef GOOGLE_PROTOBUF_COMPILER_JAVA_SHARED_CODE_GENERATOR_H
+#define GOOGLE_PROTOBUF_COMPILER_JAVA_SHARED_CODE_GENERATOR_H
 
 #include <memory>
 #ifndef _SHARED_PTR_H
@@ -91,4 +91,4 @@ class SharedCodeGenerator {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_COMPILER_JAVA_SHARED_CODE_GENERATOR_H__
+#endif  // GOOGLE_PROTOBUF_COMPILER_JAVA_SHARED_CODE_GENERATOR_H

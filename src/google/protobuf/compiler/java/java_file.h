@@ -32,8 +32,8 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#ifndef GOOGLE_PROTOBUF_COMPILER_JAVA_FILE_H__
-#define GOOGLE_PROTOBUF_COMPILER_JAVA_FILE_H__
+#ifndef GOOGLE_PROTOBUF_COMPILER_JAVA_FILE_H
+#define GOOGLE_PROTOBUF_COMPILER_JAVA_FILE_H
 
 #include <memory>
 #ifndef _SHARED_PTR_H
@@ -115,4 +115,4 @@ class FileGenerator {
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_COMPILER_JAVA_FILE_H__
+#endif  // GOOGLE_PROTOBUF_COMPILER_JAVA_FILE_H

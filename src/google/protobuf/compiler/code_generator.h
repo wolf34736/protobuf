@@ -35,8 +35,8 @@
 // Defines the abstract interface implemented by each of the language-specific
 // code generators.
 
-#ifndef GOOGLE_PROTOBUF_COMPILER_CODE_GENERATOR_H__
-#define GOOGLE_PROTOBUF_COMPILER_CODE_GENERATOR_H__
+#ifndef GOOGLE_PROTOBUF_COMPILER_CODE_GENERATOR_H
+#define GOOGLE_PROTOBUF_COMPILER_CODE_GENERATOR_H
 
 #include <google/protobuf/stubs/common.h>
 #include <string>
@@ -142,4 +142,4 @@ extern void ParseGeneratorParameter(const string&,
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_COMPILER_CODE_GENERATOR_H__
+#endif  // GOOGLE_PROTOBUF_COMPILER_CODE_GENERATOR_H

@@ -43,8 +43,8 @@
 // but should instead use the accessor functions generated automatically by the
 // protocol compiler.
 
-#ifndef GOOGLE_PROTOBUF_REPEATED_FIELD_H__
-#define GOOGLE_PROTOBUF_REPEATED_FIELD_H__
+#ifndef GOOGLE_PROTOBUF_REPEATED_FIELD_H
+#define GOOGLE_PROTOBUF_REPEATED_FIELD_H
 
 #ifdef _MSC_VER
 // This is required for min/max on VS2013 only.
@@ -2394,4 +2394,4 @@ AllocatedRepeatedPtrFieldBackInserter(
 }  // namespace protobuf
 
 }  // namespace google
-#endif  // GOOGLE_PROTOBUF_REPEATED_FIELD_H__
+#endif  // GOOGLE_PROTOBUF_REPEATED_FIELD_H

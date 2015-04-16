@@ -30,8 +30,8 @@
 
 // Author: wink@google.com (Wink Saville)
 
-#ifndef PROTOBUF_COMPILER_JAVANANO_JAVANANO_PARAMS_H_
-#define PROTOBUF_COMPILER_JAVANANO_JAVANANO_PARAMS_H_
+#ifndef PROTOBUF_COMPILER_JAVANANO_JAVANANO_PARAMS_H
+#define PROTOBUF_COMPILER_JAVANANO_JAVANANO_PARAMS_H
 
 #include <map>
 #include <set>
@@ -237,4 +237,4 @@ class Params {
 }  // namespace compiler
 }  // namespace protobuf
 }  // namespace google
-#endif  // PROTOBUF_COMPILER_JAVANANO_JAVANANO_PARAMS_H_
+#endif  // PROTOBUF_COMPILER_JAVANANO_JAVANANO_PARAMS_H
