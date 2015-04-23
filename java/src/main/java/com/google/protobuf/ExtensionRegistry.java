@@ -98,10 +98,21 @@ public class ExtensionRegistry extends ExtensionRegistryLite {
   public static ExtensionRegistry newInstance() {
     return new ExtensionRegistry();
   }
+  
 
   /** Get the unmodifiable singleton empty instance. */
   public static ExtensionRegistry getEmptyRegistry() {
     return EMPTY;
+  }
+  
+  /** check if instance is empty*/
+  public boolean isEmpty()
+  {
+	if(this == getEmptyRegistry())
+	{
+		return true;
+	}
+	else return false;
   }
 
 
