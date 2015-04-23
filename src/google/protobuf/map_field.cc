@@ -62,7 +62,7 @@ void RegisterMapEntryDefaultInstance(MessageLite* default_instance) {
 }
 
 MapFieldBase::~MapFieldBase() {
-  if (repeated_field_ != NULL && arena_ == NULL) delete repeated_field_;
+  if (arena_ == NULL) delete repeated_field_;
 }
 
 const RepeatedPtrFieldBase& MapFieldBase::GetRepeatedField() const {

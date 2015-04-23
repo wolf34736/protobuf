@@ -504,9 +504,7 @@ DynamicMessage::~DynamicMessage() {
     } else if (field->cpp_type() == FieldDescriptor::CPPTYPE_MESSAGE) {
       if (!is_prototype()) {
         Message* message = *reinterpret_cast<Message**>(field_ptr);
-        if (message != NULL) {
-          delete message;
-        }
+        delete message;
       }
     }
   }

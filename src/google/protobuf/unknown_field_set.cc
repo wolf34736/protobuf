@@ -72,13 +72,11 @@ UnknownFieldSet::~UnknownFieldSet() {
 }
 
 void UnknownFieldSet::ClearFallback() {
-  if (fields_ != NULL) {
     for (int i = 0; i < fields_->size(); i++) {
-      (*fields_)[i].Delete();
-    }
-    delete fields_;
-    fields_ = NULL;
+    (*fields_)[i].Delete();
   }
+  delete fields_;
+  fields_ = NULL;
 }
 
 void UnknownFieldSet::ClearAndFreeMemory() {

@@ -1035,7 +1035,7 @@ DescriptorPool::DescriptorPool(const DescriptorPool* underlay)
     enforce_weak_(false) {}
 
 DescriptorPool::~DescriptorPool() {
-  if (mutex_ != NULL) delete mutex_;
+  delete mutex_;
 }
 
 // DescriptorPool::BuildFile() defined later.
